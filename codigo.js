@@ -3,7 +3,7 @@ let lista;
 document.getElementById("entradaUsuario").addEventListener("input", function() {
   const usuario = this.value;
   if (usuario) {
-    lista = new Lista(usuario);
+    lista = new lista(usuario);
     document.getElementById("entradaTarea").disabled = false;
     document.getElementById("botonAgregar").disabled = false;
   } else {
